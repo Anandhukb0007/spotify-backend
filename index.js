@@ -57,7 +57,7 @@ passport.use(
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Hello From Anandhu");
 });
 app.use("/auth", authRoutes);
 app.use("/song", songRoutes);
